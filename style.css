@@ -1,0 +1,74 @@
+/*
+ig-header
+ig-feed
+ig-post
+ig-post-header
+ig-post-img
+ig-post-footer
+*/
+*{
+    border:;
+}
+
+.ig-header {
+    background-color: whitesmoke;
+    margin: 1%;
+}
+
+.ig-feed{
+    background-color: white;
+    margin: 0;
+}
+
+body{
+    background-color: #bdbdbd;
+    margin: 0%;
+}
+
+.ig-header div{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.ig-post-header div{
+    font-weight: bold;
+    color: grey;
+    margin-left: auto;
+    margin-right: 5px;
+}
+.ig-header h1 {
+    width: 35%;
+    height: 100px;
+}
+
+.ig-post-header{
+    height: 40px;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.ig-post-header h1{
+    margin-right: auto;
+    margin-left: 5px;
+}
+
+.ig-post-footer p{
+    margin: 5%;
+}
+.ig-post{
+    background-color: white;
+    margin: 100px;
+    width: 34%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid black;
+}
+
+.ig-post-img {
+    
+     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
